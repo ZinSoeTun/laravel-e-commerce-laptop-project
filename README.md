@@ -10,12 +10,14 @@
 - For admin , admin must log in if not admin is not used. so admin can insert products , view messages from user and promote from user to admin
 - Must be careful things
              - Don't open the file without internet
-- If you want to run this file, you first
+- If you want to run this file, you first 
          - Download this file or git clone this repository.
          - Open this file on code editer as you like .
-         - type composer install
-         - Install npm and xmapp .
-         - Open apache server and sql .
+         - Type composer install
+         - Run npm install axios@1.7.4 --save-dev
+         - Install npm and xmapp OR use your local environment
+         - Open apache server and sql  OR other ways you like
+         - Please run npm audit to check any vulnerabilities is existed or not
          - Then run this command ' php artisan serve '
-- if you have problems , please visit to laravel official website https://laravel.com/docs/10.x/routing
+- If you have problems , please visit to laravel official website https://laravel.com/docs/10.x/routing
 - Good luck for your try.😊😊😊😊😊😊😊
