@@ -9,7 +9,7 @@
 - For user , If user is not logged in, user can view products and visit routes and if user is logged in user can view products and visit routes and also order cart .
 - For admin , admin must log in if not admin is not used. so admin can insert products , view messages from user and promote from user to admin
 - Must be careful things
-             - Don't open the file without internet
+     - Don't open the file without internet
 - If you want to run this file,  you first
      - Download this file or git clone this repository .
      - Open this file on code editer as you like .
