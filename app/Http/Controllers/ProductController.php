@@ -82,7 +82,9 @@ class ProductController extends Controller
     {
         $dbImage =    Product::where('id', $id)->value('image');
         if($dbImage != NULL)
+        {
         Storage::delete('public/product/'.  $dbImage );
+        }
         Product::where('id', $id)->delete();
         return back()->with(['success' => 'You choiced product Has Been Deleted']);
     }
