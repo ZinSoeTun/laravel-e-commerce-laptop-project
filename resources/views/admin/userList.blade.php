@@ -29,7 +29,7 @@
             </div>
 
             @if (count($data) == 0)
-                <h2 class="text-center mt-5">There is no <span class="text-danger">Product Data!</span></h2>
+                <h2 class="text-center mt-5">There is no <span class="text-danger">User Data!</span></h2>
             @else
                 {{-- user list --}}
                 <table class="table  ms-5" style=" width: 60rem">

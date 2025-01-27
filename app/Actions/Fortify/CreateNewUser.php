@@ -35,6 +35,7 @@ class CreateNewUser implements CreatesNewUsers
             'age' => $input['age'],
             'phone' => $input['phone'],
             'gender' => $input['gender'],
+            'address' => $input['address'],
         ]);
     }
 }

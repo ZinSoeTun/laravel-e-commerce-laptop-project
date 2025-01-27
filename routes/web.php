@@ -92,8 +92,6 @@ Route::middleware([
             Route::get('/detail/{id}', [ContactController::class, 'contactDetail'])->name('contact.detail');
             Route::get('/delete/{id}', [ContactController::class, 'contactDelete'])->name('contact.delete');
         });
-        //search form
-        Route::post('/search', [SearchController::class, 'searchQuery'])->name('search');
     });
 
 

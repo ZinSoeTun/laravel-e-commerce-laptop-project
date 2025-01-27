@@ -26,6 +26,7 @@
 
 @section('content')
     <section class="section profile m-4">
+
         {{-- profile update success messages --}}
         <div style="width: 500px;" class="text-success mx-2 mx-auto">
             @if (session('success'))
