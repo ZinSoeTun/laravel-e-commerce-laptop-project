@@ -13,11 +13,11 @@
 - If you want to run this file,  you first
      - Download this file or git clone this repository .
      - Open this file on code editer as you like .
-     - Type composer install
+     - Type 'composer install'
      - Create file as .env in root directory and then copy the all codes from .env.example to .env file
-     - Type php artisan key:generate
+     - Type 'php artisan key:generate'
      - Create new database and add that new database name to .env file
-     - Type php artisan migrate
+     - Type 'php artisan migrate'
      - If a patched version is released https://www.npmjs.com/package/axios ,
            run npm install axios@latest --save-dev
      - Install npm and xmapp OR use your local environment .
